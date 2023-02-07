@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">458763950866-l2sj2jqp5n1p4shmhf6mi778c65uua4h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">458763950866</string>
+    <string name="google_api_key" translatable="false">AIzaSyByqq3PEoBgG4z-_LXzULsB9MCN9OXRNTw</string>
+    <string name="google_app_id" translatable="false">1:458763950866:android:3949a53a14a6d159ffb1cb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyByqq3PEoBgG4z-_LXzULsB9MCN9OXRNTw</string>
+    <string name="google_storage_bucket" translatable="false">flutter-quiz-app-9457b.appspot.com</string>
+    <string name="project_id" translatable="false">flutter-quiz-app-9457b</string>
+</resources>

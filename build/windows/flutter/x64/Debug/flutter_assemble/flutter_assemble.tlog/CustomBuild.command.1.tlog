@@ -1,0 +1,28 @@
+^C:\USERS\DADOS\QUIZAPP\BUILD\WINDOWS\CMAKEFILES\579F1487C071F6F839218791EC79D887\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\dados\Documents\flutter_windows_3.7.0-stable\flutter PROJECT_DIR=C:\Users\dados\quizapp FLUTTER_ROOT=C:\Users\dados\Documents\flutter_windows_3.7.0-stable\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\dados\quizapp\windows\flutter\ephemeral PROJECT_DIR=C:\Users\dados\quizapp FLUTTER_TARGET=C:\Users\dados\quizapp\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\dados\quizapp\.dart_tool\package_config.json C:/Users/dados/Documents/flutter_windows_3.7.0-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DADOS\QUIZAPP\BUILD\WINDOWS\CMAKEFILES\9EA3D4196C3AFFEB8843AC833DB52882\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\DADOS\QUIZAPP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/dados/quizapp/windows -BC:/Users/dados/quizapp/build/windows --check-stamp-file C:/Users/dados/quizapp/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
