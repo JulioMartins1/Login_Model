@@ -186,7 +186,7 @@ class _RegistePageState extends State<RegistePage> {
                     GestureDetector(
                       onTap: widget.showLoginPage,
                       child: const Text(
-                        'Entre Agora',
+                        ' Entre Agora',
                         style: TextStyle(
                           color: Colors.blue,
                           fontWeight: FontWeight.bold,
